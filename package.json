@@ -2,6 +2,8 @@
   "name": "ui-fabric-vue",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.js",
+  "module": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -10,6 +12,8 @@
   },
   "dependencies": {
     "core-js": "^3.1.2",
+    "lodash": "^4.17.15",
+    "office-ui-fabric-core": "^10.1.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -20,6 +24,7 @@
     "@vue/eslint-config-prettier": "^5.0.0",
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-eslint": "^10.0.1",
+    "babel-plugin-lodash": "^3.3.4",
     "eslint": "^6.5.1",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-vue": "^5.0.0",
